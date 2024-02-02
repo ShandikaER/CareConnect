@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Donation">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="49dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/white"
+        android:padding="5dp"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_back"
+        app:iconTint="@color/black"
+        app:iconSize="30dp"/>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donation"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/gambarChar"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/love"
+        android:layout_marginTop="100dp"
+        app:riv_corner_radius="8dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toTopOf="@id/gambarChar"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/dd_selectChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Charities"
+            android:layout_weight="1"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Amount"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/dd_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Payment"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDonate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/purple_custom"
+        android:text="Donate" />
+
+</RelativeLayout>

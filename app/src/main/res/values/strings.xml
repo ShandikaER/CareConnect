@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PROJECT14</string>
+    <string name="editTextUsername">Edit Username</string>
+    <string name="editTextPassword">Edit Password</string>
+    <string name="select">Select</string>
+    <string name="nama_badanamal">Nama Badan Amal</string>
+    <string name="ktg_badanamal">Kategori Badan Amal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_transaction_history">TransactionHistory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="namaChar">Nama Char</string>
+    <string name="ketChar">Keterangan Char</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.</string>
+    <string name="title_activity_output_ml">OutputMl</string>
+
+    <string-array name="feelings">
+        <item>LAZISMU</item>
+        <item>BAZNAS</item>
+        <item>RUMAH ZAKAT</item>
+        <item>DOMPET DHUAFA</item>
+        <item>IZI</item>
+    </string-array>
+
+    <string-array name="payment">
+        <item>Gopay</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+
+</resources>

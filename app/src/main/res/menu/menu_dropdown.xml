@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/menu_dropdown.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_1"
+        android:title="Pilihan 1" />
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="Pilihan 2" />
+    <item
+        android:id="@+id/menu_item_3"
+        android:title="Pilihan 3" />
+</menu>
